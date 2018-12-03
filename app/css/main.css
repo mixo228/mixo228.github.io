@@ -1,0 +1,64 @@
+#header
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100px;
+	width: 1000px;
+	background-color: Turquoise;
+}
+
+#main
+{
+	position: absolute;
+	top: 100px;
+	left: 0;
+	height: 500px;
+	width: 1000px;
+	clip: auto;
+	overflow: hidden;
+}
+
+#footer
+{
+	position: absolute;
+	top: 600px;
+	left: 0;
+	height: 100px;
+	width: 1000px;
+	background-color: Turquoise;
+}
+
+#dialog
+{
+	position: absolute;
+	top: 300px;
+	left: 300px;
+	height: 200px;
+	width: 300px;
+	background-color: Turquoise;
+	text-align: center;
+}
+
+#start
+{
+	position: absolute;
+	background-color: #5F9EA8;
+	width: 100px;
+	height: 50px;
+	border-radius: 5px;
+	left: 100px;
+	top: 125px;
+
+	box-shadow: 1px 2px 5px #5F9EA8;
+	transition: 0.3s;
+}
+#start:hover
+{
+	background-color: #5F9EAF;
+	cursor: pointer;
+}
+#start:active
+{
+	box-shadow: 0 0 0 #5F9EA8;
+}
