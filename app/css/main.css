@@ -62,3 +62,11 @@
 {
 	box-shadow: 0 0 0 #5F9EA8;
 }
+#gamefield
+{
+	position: absolute;
+	height: 500px;
+	width: 700px;
+	left: 150px;
+	top: 0;
+}
